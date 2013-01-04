@@ -65,7 +65,7 @@ public class Main {
             } while (haveNewStrategy);
 
             try {
-                System.out.println("закончили подсчеты для вероятности: " + prob);
+                System.out.println("calculate strategy for : " + prob + " success probability");
 
                 printRates("rates for " + prob + " probability", rates);
             } catch (FileNotFoundException e) {
